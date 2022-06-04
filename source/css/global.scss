@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --bg-color: #121214;
+  --font-color: #f1f1f1;
+  --rockeat-color: #8257e6;
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +11,14 @@
 }
 
 body {
-  font: 16px Arial, Helvetica, sans-serif;
-  color: #121214;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background: var(--bg-color);
+  color: var(--font-color);
+}
+.copy {
+  color: var(--rockeat-color);
+  margin-left: 1200px;
+  margin-top: 308px;
+  text-decoration: none;
 }
